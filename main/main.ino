@@ -3,7 +3,7 @@
 
 Servo servos[6];
 
-// {"motor_demands":"[0.1, 0.1, 0.1, 0.1, 0.1, 0.1]"}
+// {"motor_demands":[0.1, 0.1, 0.1, 0.1, 0.1, 0.1]}
 
 void writeServos(float motor_demands[], Servo servos[]) {
     for(int i=0; i<6; i++) {
